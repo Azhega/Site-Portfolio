@@ -1,0 +1,861 @@
+
+
+body,html
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html
+{
+    width: 100%;
+    display: flex;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #212529;
+    font-family: "Work Sans", sans-serif;
+    color:rgb(216, 216, 216);
+    width: 100%;
+}
+
+/*=============HEADER==============*/
+
+#hrtop
+{
+    opacity: 0%;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 125px;
+    width: 100%;
+    position: fixed;
+}
+
+#NavBar
+{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+#NavCV
+{
+    font-weight: 400;
+    color:rgb(216, 216, 216);
+}
+#aCV
+{
+    text-decoration: none;
+}
+#NavProj
+{
+    font-weight: 400;
+    color:rgb(216, 216, 216);
+}
+#aProj
+{
+    text-decoration: none;
+}
+#NavContact
+{
+    font-weight: 400;
+    color:rgb(216, 216, 216);
+}
+#aContact
+{
+    text-decoration: none;
+}
+
+#Nom
+{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    width: 120px;
+    height: 25px;
+    padding: 10px;
+    padding-right: 3px;
+    margin: 10px;
+    margin-right: 0px;
+    text-align: center;
+    color: rgb(216, 216, 216);;
+}
+#aNom
+{
+    text-decoration: none;
+}
+
+#Job
+{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    padding-left: 3px;
+    margin: 10px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+#Langue
+{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    width: 100px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.SectionNomJob
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.SectionLangue
+{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+
+/*=============MAIN==============*/
+
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#PhotoCV
+{
+    border-radius: 100%;
+    margin: 30px;
+}
+
+#AboutTxt
+{
+    display: flex;
+    flex-direction: column;
+}
+#Titre
+{
+    font-size:50px;
+    margin-bottom: 10px;
+}
+
+#Paragraphe
+{
+    font-weight: 400;
+}
+
+#AboutButtons
+{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+}
+
+
+#SectionCV
+{
+    margin: 10px;
+    margin-left: 0;
+}
+#BoutonCV
+{
+    background-color: lightgoldenrodyellow;
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 100%;
+    width: 125px;
+    height: 125px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+#BoutonCV:hover
+{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    background-color:rgb(255, 253, 140);
+}
+
+#SectionProj
+{
+    margin: 10px;
+}
+#BoutonProj
+{
+    background-color: rgb(255, 146, 146);
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 100%;
+    width: 125px;
+    height: 125px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+#BoutonProj:hover
+{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    background-color:rgb(255, 100, 100);
+}
+
+
+#SectionContact
+{
+    margin: 10px;
+}
+#BoutonContact
+{
+    background-color: rgb(162, 219, 255);
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 100%;
+    width: 125px;
+    height: 125px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+#BoutonContact:hover
+{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    background-color:rgb(119, 232, 255);
+}
+
+/*=============HR==============*/
+
+#hr1
+{
+    align-items: center;
+    width: 95%;
+    opacity: 70%;
+    margin-bottom: 0px;
+}
+
+/*=============CV==============*/
+
+#articleCV
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#TxtCV
+{
+    font-size: 50px;
+}
+
+/*=============HR==============*/
+
+#hr2
+{
+    align-items: center;
+    width: 95%;
+    opacity: 70%;
+    margin-bottom: 0px;
+}
+
+/*=============Projets==============*/
+
+#articleProj
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#TxtProj
+{
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+#TxtVideo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+#TxtPath
+{
+    margin-right: 125px;
+}
+#TitrePath
+{
+    font-size: 30px;
+    margin: 0px;
+}
+#SousTitrePath
+{
+    font-size: 25px;
+    margin: 0px;
+}
+#PrgphPath
+{
+    font-size: 20px;
+}
+video 
+{
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+#ProjUXUI
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+#TxtUXUI
+{
+    margin-right: 88px;
+}
+#TitreUXUI
+{
+    font-size: 30px;
+    margin: 0px;
+}
+#SousTitreUXUI
+{
+    font-size: 25px;
+    margin: 0px;
+}
+#PrgphUXUI
+{
+    font-size: 20px;
+}
+#ImgUXUI
+{
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+}
+
+#ProjSite
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#TxtSite
+{
+    margin-right: 200px;
+}
+#TitreSite
+{
+    font-size: 30px;
+    margin: 0px;
+}
+#SousTitreSite
+{
+    font-size: 25px;
+    margin: 0px;
+}
+#PrgphSite
+{
+    font-size: 20px;
+}
+#ImgSite
+{
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+/*=============HR==============*/
+
+#hr3
+{
+    align-items: center;
+    width: 95%;
+    opacity: 70%;
+    margin-bottom: 0px;
+}
+
+/*=============Contact==============*/
+
+#articleContact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#TitreContact
+{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
+#SousTitreContact
+{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+#namebox
+{
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    width: 435px;
+    height: 22px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    size: 50px;
+    padding: 20px;
+}
+#labelname
+{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+#emailbox
+{
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    width: 435px;
+    height: 22px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 20px;
+}
+#labelemail
+{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+#NameEmail
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+#SectionMessage
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#MessageBox
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#labelmessage
+{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+#message
+{
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    width: 435px;
+    height: 145px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 20px;
+}
+#SubmitButton
+{
+    width: 115px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 300px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+#SubmitButton:hover
+{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    background-color:rgb(255, 255, 255);
+}
+
+/*=============HR==============*/
+
+#hr4
+{
+    align-items: center;
+    width: 100px;
+    opacity: 100%;
+    margin-top: 20px;
+    border-width: 1px;
+    border-color: rgb(255, 89, 0);
+}
+
+#hr5
+{
+    align-items: center;
+    width: 95%;
+    opacity: 70%;
+}
+
+/*=============FOOTER==============*/
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#Num
+{
+    flex-direction: column;
+}
+
+#Tel
+{
+    margin: 5px;
+    font-weight: 575;
+}
+
+#Numero
+{
+    margin: 5px;
+    font-weight: 400;
+}
+
+#Email
+{
+    flex-direction: column;
+}
+#mail
+{
+    margin: 5px;
+    font-weight: 575;
+}
+#email
+{
+    margin: 5px;
+    font-weight: 400;
+}
+
+#Media
+{
+    flex-direction: column;
+}
+#Reseaux
+{
+    margin: 5px;
+    font-weight: 575;
+}
+#logox
+{
+    margin-right: 10px;
+}
+
+#Misc
+{
+    flex-direction: column;
+}
+#Conf
+{
+    margin: 5px;
+    font-weight: 400;
+}
+#Legal
+{
+    margin: 5px;
+    font-weight: 400;
+}
+#Cookies
+{
+    margin: 5px;
+    font-weight: 400;
+}
+
+#Credits
+{
+    flex-direction: column;
+}
+#Creds
+{
+    margin: 5px;
+    font-weight: 400;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+        form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        #AboutButtons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+        #About {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+        #TxtVideo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+        #TxtPath {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+        main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+        margin-top: 100px;
+    }
+        #AboutTxt {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+        #PhotoCV {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+        #Titre {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        margin-top: 5px;
+    }
+        #Paragraphe {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        width: 70%;
+        text-align: center;
+    }
+        #ImgCV {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+        #Form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+        #NameEmail {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+        #namebox {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+        #emailbox {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+        #message {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+        #Tel {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+        #mail {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+        #Conf {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+        #Legal {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+        #Cookies {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+        #PrgphPath {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+        #ProjSite {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+        #ProjUXUI {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+        #TitreUXUI {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+        #SousTitreUXUI {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+        #PrgphUXUI {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+        #TxtUXUI {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        margin-right: 0;
+        padding: 20px;
+    }
+        #TxtSite {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        margin-right: 0;
+        padding: 20px;
+    }
+        #Num {
+        margin-bottom: 20px;
+    }
+        #Email {
+        margin-bottom: 20px;
+    }
+        #Media {
+        margin-bottom: 20px;
+    }
+        #Misc {
+        margin-bottom: 20px;
+    }
+        #Credits {
+        margin-bottom: 20px;
+    }
+}
+
