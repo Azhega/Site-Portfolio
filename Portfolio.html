@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Ethan LÊ</title>
+    <link href = "portfoliocss.css" rel = "stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body id = "pagetop">
+    <header>
+
+        <section class = "SectionNomJob">
+        <a id = "aNom" href = "#pagetop"><h2 id = "Nom">Ethan LÊ</h2></a>
+        <h3 id = "Job">Developper FullStack</h3>
+        </section>
+
+        <section id = "NavBar">
+
+        <section class = "SectionNavCV">
+        <a id = "aCV" href = "#TxtCV"><h3 id = "NavCV">CV</h3></a>
+        </section>
+        
+        <section class = "SectionNavProj">
+        <a id = "aProj" href = "#articleProj"><h3 id = "NavProj">Projets</h3></a>
+        </section>
+
+        <section class = "SectionNavContact">
+        <a id = "aContact" href = "#articleContact"><h3 id = "NavContact">Contact</h3></a>
+        </section>
+
+        </section>
+
+    </header>
+
+    <main>
+        <section id = "SectionPhoto">
+        <img id = "PhotoCV" src = "PhotoCV.jpg" width = "400px" alt = "Txt alternatif si l'image ne fonctionne pas">
+        </section>
+
+        <section id = "About">
+
+        <section id = "AboutTxt">
+        <h2 id = "Titre">À propos de moi</h2>
+        <h3 id = "Paragraphe">Salut ! Moi c'est Ethan, j'ai 18 ans et je suis <br> 
+                                actuellement étudiant à l'école d'informatique <br> 
+                                CODA à Orléans. Je vous présente mon portfolio <br> 
+                                qui retrace mon parcours professionnel.</h3>
+        </section>
+
+        <section id = "AboutButtons">
+
+        <section id = "SectionCV">
+        <a href = "#TxtCV"><button id = "BoutonCV">CV</button></a>
+        </section>
+
+        <section id = "SectionProj">
+        <a href = "#articleProj"><button id = "BoutonProj">Projets</button></a>    
+        </section>
+
+        <section id = "SectionContact">
+        <a href = "#articleContact"><button id = "BoutonContact">Contact</button></a>
+        </section>
+
+        </section> <!--Section AboutButtons-->
+
+        </section> <!--Section About-->
+        
+    </main>
+
+    <hr id = "hr1" />
+
+    <article id = "articleCV">
+        <h2 id = "TxtCV">Mon CV</h2>
+        <img id = "ImgCV" src = "CV Ethan LÊ.png" width = "550px" alt = "CV Ethan">
+    </article>
+
+    <hr id = "hr2" />
+
+    <article id = "articleProj"> 
+        <h2 id = "TxtProj">Mes Projets</h2>
+
+        <section id = "TxtVideo">
+
+        <section id = "TxtPath">
+
+        <h3 id = "TitrePath">Pathfinding</h3>
+        <h3 id = "SousTitrePath">En langage C</h3>
+        <p id = "PrgphPath">Recherche du meilleur chemin entre un point de <br> 
+                            départ et un point d’arrivée dans un graphe <br> 
+                            en prenant compte de différentes contraintes</p>
+
+        </section> <!--TxtPath-->
+
+        <video src="video.mp4" autoplay="autoplay" muted="true" playsinline="true" width="30%" poster="video.mp4" loop=""></video>
+
+        </section> <!--TxtVideo-->
+
+
+        <section id = "ProjUXUI">
+
+            <section id = "TxtUXUI">
+    
+            <h3 id = "TitreUXUI">Design UX / UI d'un site de Pizzeria</h3>
+            <h3 id = "SousTitreUXUI">Avec Figma et Moqups</h3>
+            <p id = "PrgphUXUI">Design d'un Wireframe responsive pour un site <br> de Pizzeria ainsi que de son UI au format Mobile</p>
+    
+            </section> <!--TxtUXUI-->
+    
+            <img id = "ImgUXUI" src="Wireframe PC.png" width="30%" alt = "Txt alternatif si l'image ne fonctionne pas">
+    
+        </section> <!--ProjUXUI-->
+
+
+        <section id = "ProjSite">
+
+            <section id = "TxtSite">
+        
+            <h3 id = "TitreSite">Site Web Portfolio</h3>
+            <h3 id = "SousTitreSite">En langage HTML et CSS</h3>
+            <p id = "PrgphSite">Design de l'architecture, du style, et des <br> animations du Site Web de mon Portfolio</p>
+        
+            </section> <!--TxtSite-->
+        
+            <img id = "ImgSite" src="site.png" width="30%" alt = "Txt alternatif si l'image ne fonctionne pas">
+        
+        </section> <!--ProjSite-->
+    </article>
+
+    <hr id = "hr3" />
+
+    <article id = "articleContact">
+
+        <section id = "TitreContact">
+        <h2 id = "TitreContact">Contact</h2>
+        <hr id = "hr4" />
+        <h3 id = "SousTitreContact">N'hésitez pas à me contacter.</h3>
+        </section>
+
+        <section id = "SectionForm">
+            <form method="get" action="">
+
+                <section id = "NameEmail">
+
+                <label id = "labelname" for="name">Nom et Prénom</label>
+                <input type="text" name="namebox" id="namebox" placeholder = "Nom et Prénom" required>
+
+                <label id = "labelemail" for="emailbox">E-mail</label>
+                <input type="email" name="emailbox" id="emailbox" placeholder = "Email" required>
+
+                </section>
+
+                <section id = "SectionMessage">
+
+                <section id = "MessageBox">
+                <label id = "labelmessage" for="message">Message</label>
+                <textarea name="message" id="message" placeholder = "Saisissez votre message" required></textarea>
+                </section>
+
+                <input id = "SubmitButton" type="submit" value="ENVOYER">
+
+                </section>
+
+            </form>
+        </section>
+    </article>
+
+    <hr id = "hr5" />
+
+    <footer>
+        <section id = "Num">
+        <h3 id = "Tel">Téléphone</h3>
+        <h4 id = "Numero">06 52 42 87 32</h4>
+        </section>
+
+        <section id = "Email">
+        <h3 id = "mail">E-mail</h3>
+        <a id = "aEmail" href="https://mail.google.com/mail/?view=cm&fs=1&to=ethan.le@coda-student.school" target = "_blank" class="email">
+            <h4 id = "email">ethan.le@coda-student.school</h4></a>
+        </section>
+
+        <section id = "Media">
+        <h3 id = "Reseaux">Mes réseaux</h3>
+        <a href = "https://x.com/Azhega_SSB" target = "_blank"><input id = "logox" type = "image" href = "https://x.com/Azhega_SSB" width = "50px" src = "x.png"></a>
+        <a href = "https://github.com/Azhega" target = "_blank"><input id = "logogit" type = "image" href = "https://github.com/Azhega" width = "50px" src = "github.png"></a>
+        </section> 
+
+        <section id = "Misc">
+        <h5 id = "Conf">Politique de confidentialité</h5>
+        <h5 id = "Legal">Mentions légales</h5>
+        <h5 id = "Cookies">Politique de cookies</h5>
+        </section>
+
+        <section id = "Credits">
+        <h5 id = "Creds">© 2024 par Ethan LÊ.</h5>
+        </section>
+
+    </footer>
+
+</body>
+</html>

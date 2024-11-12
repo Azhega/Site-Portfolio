@@ -1,0 +1,24 @@
+#header 
+{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:flex-start;
+    background-color: black;
+    color: white;
+}
+
+#content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:stretch;
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
